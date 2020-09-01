@@ -1,0 +1,96 @@
+body
+{
+    background-color: antiquewhite;
+    margin:0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgHero
+{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+}
+
+header
+{
+    background-color: rgb(180, 39, 39);
+    text-align:  center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0;
+
+
+}
+
+header h1
+{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar
+{
+    /* background: rgb(180, 39, 39); */
+    text-align: center;
+    white-space: nowrap;
+    display: inline-flex;
+    position: absolute;
+    top: 150px;
+    right: 250px;   
+}
+
+.article
+{
+    color: white;
+}
+
+.article h2
+{
+    top: 10;
+    padding: 20px;    
+}
+
+li{
+    text-decoration: none;
+    margin: 2px;    
+}
+
+a{
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: rgb(218, 218, 212);
+    font-size: 20px;
+    background-color: rgb(228, 42, 9);
+    border-radius: 15px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0 5px 0 0;
+    margin: 5px;
+}
+
+a:hover
+{
+    background-color: rgb(248, 252, 4);
+    border-radius: 15px;
+    color: rgb(76, 76, 78);
+}
+
+footer
+{
+    text-align: center;
+}
+
+
