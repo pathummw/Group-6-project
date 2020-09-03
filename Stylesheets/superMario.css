@@ -1,6 +1,6 @@
 body {
     background-color: #E9967A;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -8,7 +8,6 @@ color: black;
 text-align: center;
 display: inline-block;
 width: 100%;
-font-family: Arial, Helvetica, sans-serif;
 border: 8px solid black;
 padding: 4px 8px;
 border-radius: 36px;
@@ -28,6 +27,21 @@ img
 {
     display: block;
 }
+
+.button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 2em;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 
  
