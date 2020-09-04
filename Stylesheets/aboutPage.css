@@ -1,6 +1,10 @@
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Syne', sans-serif;
     color: white;
     background-color: rgb(180, 39, 39);
     border: solid;
