@@ -6,13 +6,24 @@ body
     border: solid;
     border-color:white;
     border-width: 10px;
+    border-radius: 1em;
 }
 
-.rubrik
+h1
 {
-    border-bottom: white solid 3px;
-    margin: 2em;
+    border: 8px solid white;
+    border-radius: 36px;
+    color: white;
+    display:inline;
+    padding: 6px;
+}
+
+#team-h1 
+{
+    padding: 30px 12px;
+    display: block;
     text-align: center;
+    margin:0 auto;
 }
 
 #team-nav
@@ -58,9 +69,7 @@ a:hover
 .team-title
 {
     align-self: center;
-    border-bottom: solid;
-    border-color: white;
-    display: inline;
+    text-shadow: 2px 6px 6px darkred;
 }
 
 .main-nav
