@@ -1,40 +1,60 @@
 body {
-    background-color: #E9967A;
+    background-color:#87CEEB	;
 }
+
 
 ul {
   list-style-type: none;
-  text-decoration: none;
-  height: 50px;
-  width: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0;
+}
+
+li {
+  float: left;
 }
 
 li a {
   display: block;
-  color: #000;
-  padding: 3px;
+  color: white;
+  text-align: center;
+  padding: 15px 96px;
   text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color:#333;
 }
 
 li a:hover {
-  background-color: #555;
-  color: coral;
+  background-color: red;
 }
 
 h1 {
   color: black;
   text-align: center;
-  display: inline-block;
-  width: 100%;
   font-family: Impact, fantasy;
   font-weight: 2000;
+  margin: 100px ;
+  margin-top: 150px;
+
 }
 
 h2 {
   text-align: center;
   font-family: Impact, fantasy;
-  padding: 10px;
-  margin: 40px;
+  margin: 40px ;
+  display: block;
 }
 
 p {
@@ -42,7 +62,7 @@ p {
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
   display: table;
-  margin: 0 auto; 
+  margin: 80px 2px;
   text-align: center; 
 }
 
@@ -62,3 +82,5 @@ img
   font-family: SuperMario;
   font-size: 60px;
 }
+
+
