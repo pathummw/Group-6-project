@@ -1,33 +1,86 @@
 body {
-    background-color: #E9967A;
+    background-color:#87CEEB	;
+}
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 96px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color:#333;
+}
+
+li a:hover {
+  background-color: red;
 }
 
 h1 {
-color: black;
-text-align: center;
-display: inline-block;
-width: 100%;
-font-family: Arial, Helvetica, sans-serif;
-border: 8px solid black;
-padding: 4px 8px;
-border-radius: 36px;
+  color: black;
+  text-align: center;
+  font-family: Impact, fantasy;
+  font-weight: 2000;
+  margin: 100px ;
+  margin-top: 150px;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: Impact, fantasy;
+  margin: 40px ;
+  display: block;
 }
 
 p {
-color: black;
-width: 100%;
-text-align: center;
-display: inline-block;
-font-family: Arial, Helvetica, sans-serif;
-
-
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  display: table;
+  margin: 80px 2px;
+  text-align: center; 
 }
 
 img 
 {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+@font-face {
+    font-family: SuperMario; src: url('/fonts/SuperMario256.ttf');
+}
+
+.SuperMarioFont {
+  font-family: SuperMario;
+  font-size: 60px;
 }
 
 
- 
