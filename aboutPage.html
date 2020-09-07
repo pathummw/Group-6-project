@@ -4,13 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500&display=swap" rel="stylesheet">
     <title>About the Team!</title>
-    <link rel="stylesheet" href="Stylesheets/aboutPage.css">
+    <link rel="stylesheet" href="/Stylesheets/aboutPage.css">
 </head>
 
-<body id="about-page">
-    <h1 class= "rubrik">Vårt Team!</h1>
-    <div class="testOuterDiv">
+<body>
+    <div id="team-h1">
+    <h1 class= "rubrik">About the team!</h1>
+    </div>
+
+    <div id="about-team">
+    
     <nav class="main-nav" id="team-list">
         <ul class="navClass" id="team-nav">
             <li><a href="#andela">Andela Rajic</a></li>
@@ -22,16 +28,13 @@
 
         </ul>
     </nav>
-    </div>
 
-    <div id="about-team">
+    
 
         <div class="team-div">
             <h2 class="team-title" id=andela>Andela Rajic</h2>
-            <img class="img-about"  id="andela-img" src="Bilder/female1-512.png" alt="Andela">
-            <p>Här finner du lite fakta om Andela Rajic!</p>
-            <p>Jag är 25 år gamal</p>
-            <p>Jag har tidigare arbetat som sjukgymnast</p>
+            <img class="img-about"  id="andela-img" src="Bilder/imgHero.jpg" alt="Andela">
+                 <p>Här finner du lite fakta om Andela Rajic!</p>
         </div>
 
         <div class="team-div">
@@ -53,12 +56,10 @@
             <h2 class="team-title" id="nikolas">Son Goku</h2>
             <img class="img-about" src="Bilder/goku.jpg" id="goku" alt="goku">
             <div id="goku-list">
-                <ul class="info">
-                    <li>Mitt namn är Goku och föddes i planeten namek. Kom till Jorden när jag var ett litet barn</li>
-                    <li>Jag är gift med min fru Milk och har två barn som heter Gohan och Goten</li>
-                    <li>Min största rival och även bästa vän heter Vegeta</li>
-                    <li>Jag älskar mitt liv då jag jobbar med det jag älskar och det är träning!</li>
-                </ul>
+                <p>Mitt namn är Goku och föddes i planeten namek. Kom till Jorden när jag var ett litet barn<br>
+                    Jag är gift med min fru Milk och har två barn som heter Gohan och Goten<br>
+                    Min största rival och även bästa vän heter Vegeta<br>
+                    Jag älskar mitt liv då jag jobbar med det jag älskar och det är träning!</p>
             </div>
 
         </div>
@@ -67,11 +68,13 @@
             <h2 class="team-title" id=youssef>Youssef Chardi</h2>
             <img class="img-about" id="youssef-img" src="/Bilder/youssef.jpg" alt="En bild på Youssef">
             <p id="youssef-facts">Youssef Chardi heter jag och är allmänt data intresserad men är relativt ny med programmering! <br> 
-                Har tidigare pluggat 3 års spel utveckling och 1 år film produktion.</p>
+                Har tidigare pluggat 3 års spel utveckling och 1 år film produktion. <br> Älskar hårdvara, tycker det är skitkul och ska bli spännande att lära mig mer om mjukvara!</p>
         </div>
 
     </div>
 
+    <!--Adds a button to go back to home page--> 
+    <button class="button" id="buttonAbout" type="button">  <a href="index.html"> Back home!</a> </button>
 </body>
 
 </html>
