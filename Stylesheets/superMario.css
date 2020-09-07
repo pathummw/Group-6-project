@@ -84,3 +84,14 @@ img
 }
 
 
+footer {
+  position: absolute;
+  background-color: gray;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  right: 1px;;
+
+  
+}
