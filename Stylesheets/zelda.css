@@ -4,23 +4,28 @@ body {
 }
 
 h1 {
-  background-color: rgb(180, 39, 39);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(215, 100, 100);
+  font-family: "Cormorant Upright", serif;
+  font-size: 60px;
   text-align: center;
-  padding: 30px;
-  border-radius: 2em;
-  margin-top: 10px;
-  line-height: 30px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  line-height: 75px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Cormorant", serif;
+  font-size: 18px;
 }
 
 h2 {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+  font-family: "Cormorant", serif;
+  text-decoration-line: underline;
 }
 
 img {
@@ -30,14 +35,46 @@ img {
 }
 
 .zeldainfo {
-  background-color: rgb(147, 96, 155);
+  background-color: rgb(163, 136, 85);
   text-align: center;
   padding: 30px;
-  border-radius: 2em;
-  margin-top: 6px;
+  border-radius: 15px;
   line-height: 30px;
+  margin-top: -20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 body {
   background-color: antiquewhite;
+}
+
+.zoom {
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+footer {
+  text-align: center;
+  color: black;
+}
+
+.navbar {
+  text-align: center;
+  white-space: nowrap;
+  display: inline-flex;
+  position: relative;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 5px 0 0;
+  margin: 5px;
 }
