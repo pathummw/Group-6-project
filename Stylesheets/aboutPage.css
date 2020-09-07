@@ -1,33 +1,39 @@
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
-    font-family: verdana;
-    text-align: center;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    background-color: rgb(180, 39, 39);
+    border: solid;
+    border-color:white;
+    border-width: 10px;
+    border-radius: 1em;
 }
 
-.rubrik
+h1
 {
-    text-align: center;
-    padding: 2px 4px;
-    display: inline-block;
-    border-radius: 30px;  
-}
+    border: 8px solid white;
+    border-radius: 36px;
+    color: white;
+    display:inline;
+    padding: 6px;
+} 
 
-#about-page
+#team-h1 
 {
-    background-color: #212121;
-    color: whitesmoke;
-    /* border: 20px solid white; */
+    padding: 30px 12px;
+    display: block;
+    text-align: center;
+    margin:0 auto;
 }
 
 #team-nav
 {
     list-style-type: none;
-}
-
-#about-team
-{
-   /*  background-color: rgb(180, 39, 39); */
-    background-color: #121212;
+    text-align: center;
 }
 
 /* unvisited link */
@@ -48,17 +54,6 @@ a:hover
     color: white;
 }
 
-.info
-{
-    text-align: left;   
-    
-}
-
-.info li
-{
-    text-align: center;
-    text-decoration: none;
-}
 
 #goku-list
 {
@@ -69,17 +64,16 @@ a:hover
     margin-top: 12px;
 }
 
-/* .team-div
+.team-div
 {
-    border-top-style: solid;
-    border-color: white;
-    padding: 8px;
-} */
+    padding: 8px; 
+    text-align: center;
+}
 
 .team-title
 {
-    text-align: center;
-
+    align-self: center;
+    text-shadow: 2px 6px 6px darkred;
 }
 
 .main-nav
@@ -102,21 +96,33 @@ a
     margin-left: auto;
     margin-right: auto; 
     box-shadow: 2px 8px 8px darkred;
+    padding-top: 18px;
 }
 
 .img-about:hover
 {
-    width: 250px;
-    height:250px;
-    box-shadow:
-    0 0 20px 10px #fff,  /* inner white */
-    0 0 30px 10px #f0f, /* middle magenta */
-    0 0 80px 10px #0ff; /* outer cyan */
-
-    transition: 1s;
+    width: 300px;
+    height: 300px;
+    transition: 0.1s;
 }
 
 #youssef-facts
 {
-    text-shadow: 2px 6px 6px red;
+    text-shadow: 2px 6px 6px darkred;
 }
+
+#buttonAbout {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
+    border-color:rgb(255, 66, 66);
+    border-radius: 2em;
+    color: white;
+    background-color: darkred;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-self: left;
+  }
